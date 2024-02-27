@@ -14,13 +14,13 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('index');
+    return view('welcome');
 });
 
-Route::get('/', function () {
-    return view('about', [
-        "name" => "PusPusChan",
-    ]);
-});
+// web.php
+use App\Http\Controllers\DashboardController;
+use App\Http\Controllers\PelangganController;
+use App\Http\Controllers\PelangganControllerController;
 
-Route::get('/dashboard', ['DashboardController'::class, 'index']);
+Route::get('/dashboard', [DashboardController::class, 'index']);
+Route::get('/pelanggan', [PelangganController::class, 'index']);
