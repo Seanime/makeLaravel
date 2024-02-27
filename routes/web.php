@@ -19,8 +19,12 @@ Route::get('/', function () {
 
 // web.php
 use App\Http\Controllers\DashboardController;
+use App\Http\Controllers\KaryawanController;
 use App\Http\Controllers\PelangganController;
 use App\Http\Controllers\PelangganControllerController;
 
 Route::get('/dashboard', [DashboardController::class, 'index']);
-Route::get('/pelanggan', [PelangganController::class, 'index']);
+Route::get('/karyawan', [KaryawanController::class, 'index'])->name('karyawan.index');
+Route::get('/karyawan/create', [KaryawanController::class, 'create']);
+Route::post('/karyawan/store', [KaryawanController::class, 'store'])->name('karyawan.store');
+

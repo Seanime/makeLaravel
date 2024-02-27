@@ -9,7 +9,8 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>SB Admin 2 - Dashboard</title>
+    <link rel="shortcut icon" href="{{ asset('template/Gambar_WhatsApp_2024-02-27_pukul_14.48.29_1835ba22-removebg-preview.ico') }}" type="image/x-icon">
+    <title> WageWatchers | Ramah Pengguna</title>
 
     @include('includes.style')
 </head>
