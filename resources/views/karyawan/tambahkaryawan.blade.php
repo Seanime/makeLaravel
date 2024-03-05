@@ -5,7 +5,7 @@
 
 @section('content')
 <div class="p-3">
-    <form action="{{ route('karyawan.store') }}" method="POST">
+    <form action="/" method="POST">
         @csrf
         <div class="mb-3">
             <label for="nama" class="form-label">Nama</label>

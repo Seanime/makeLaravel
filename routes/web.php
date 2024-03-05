@@ -24,7 +24,5 @@ use App\Http\Controllers\PelangganController;
 use App\Http\Controllers\PelangganControllerController;
 
 Route::get('/dashboard', [DashboardController::class, 'index']);
-Route::get('/karyawan', [KaryawanController::class, 'index'])->name('karyawan.index');
-Route::get('/karyawan/create', [KaryawanController::class, 'create']);
-Route::post('/karyawan/store', [KaryawanController::class, 'store'])->name('karyawan.store');
-
+Route::get('/karyawan', [KaryawanController::class, 'index']);
+Route::get('/tambahkaryawan', [KaryawanController::class, 'tambahkaryawan']);
