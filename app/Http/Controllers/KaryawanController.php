@@ -20,4 +20,5 @@ class KaryawanController extends Controller
     }
 
 
+
 }
