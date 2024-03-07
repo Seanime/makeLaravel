@@ -11,14 +11,14 @@
     <!-- Nav Item - Dashboard -->
     <li class="nav-item active">
         <a class="nav-link" href="/dashboard">
-            <i class="fas fa-fw fa-tachometer-alt"></i>
+            <i class="fas fa-chart-pie"></i>
             <span>Dashboard</span></a>
     </li>
     <!-- Divider -->
     <hr class="sidebar-divider my-0">
     <li class="nav-item active">
         <a class="nav-link" href="/karyawan">
-            <i class="fas fa-fw fa-users"></i>
+            <i class="fas fa-users"></i>
             <span>Karyawan</span></a>
     </li>
     <!-- Divider -->
@@ -26,7 +26,7 @@
     <!-- Nav Item - Dashboard -->
     <li class="nav-item active">
         <a class="nav-link" href="/absensi">
-            <i class="fas fa-fw fa-gift"></i>
+            <i class="fas fa-calendar-check"></i>
             <span>Absensi Karyawan</span></a>
     </li>
     <!-- Divider -->
@@ -34,7 +34,7 @@
     <!-- Nav Item - Dashboard -->
     <li class="nav-item active">
         <a class="nav-link" href="/gaji">
-            <i class="fas fa-fw fa-credit-card"></i>
+            <i class="fas fa-money-check-alt"></i>
             <span>Gaji Karyawan</span></a>
     </li>
 </ul>

@@ -95,6 +95,8 @@
         <!-- Bootstrap core JavaScript-->
         @include('includes.script')
 
+        @include('sweetalert::alert')
+
 </body>
 
 </html>

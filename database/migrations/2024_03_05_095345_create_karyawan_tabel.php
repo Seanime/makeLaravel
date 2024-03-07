@@ -15,7 +15,10 @@ return new class extends Migration
             $table->id();
             $table->string('nama');
             $table->string('jabatan');
-            $table->integer('gaji');
+            $table->string('departemen'); // Tambah kolom departemen
+            $table->string('alamat'); // Tambah kolom alamat
+            $table->string('jenis_kelamin'); // Tambah kolom jenis_kelamin
+            $table->date('tanggal_lahir'); // Tambah kolom tanggal_lahir
             $table->timestamps();
         });
     }

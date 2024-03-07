@@ -26,3 +26,8 @@ use App\Http\Controllers\PelangganControllerController;
 Route::get('/dashboard', [DashboardController::class, 'index']);
 Route::get('/karyawan', [KaryawanController::class, 'index']);
 Route::get('/tambahkaryawan', [KaryawanController::class, 'tambahkaryawan']);
+Route::post('/karyawan', [KaryawanController::class, 'karyawan']);
+Route::get('/karyawan/{karyawan_id}', [KaryawanController::class, 'show']);
+Route::get('/karyawan/{karyawan_id}/edit', [KaryawanController::class, 'edit']);
+Route::put('/karyawan/{karyawan_id}', [KaryawanController::class, 'update']);
+Route::delete('/karyawan/{karyawan_id}', [KaryawanController::class, 'destroy']);
