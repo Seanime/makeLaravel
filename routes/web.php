@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\AbsensiController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -31,3 +32,4 @@ Route::get('/karyawan/{karyawan_id}', [KaryawanController::class, 'show']);
 Route::get('/karyawan/{karyawan_id}/edit', [KaryawanController::class, 'edit']);
 Route::put('/karyawan/{karyawan_id}', [KaryawanController::class, 'update']);
 Route::delete('/karyawan/{karyawan_id}', [KaryawanController::class, 'destroy']);
+Route::get('/absensi', [AbsensiController::class, 'index']);
