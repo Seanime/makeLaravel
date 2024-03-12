@@ -20,6 +20,7 @@ Route::get('/', function () {
 
 // web.php
 use App\Http\Controllers\DashboardController;
+use App\Http\Controllers\GajiController;
 use App\Http\Controllers\KaryawanController;
 use App\Http\Controllers\PelangganController;
 use App\Http\Controllers\PelangganControllerController;
@@ -33,3 +34,4 @@ Route::get('/karyawan/{karyawan_id}/edit', [KaryawanController::class, 'edit']);
 Route::put('/karyawan/{karyawan_id}', [KaryawanController::class, 'update']);
 Route::delete('/karyawan/{karyawan_id}', [KaryawanController::class, 'destroy']);
 Route::get('/absensi', [AbsensiController::class, 'index']);
+Route::get('/gaji', [GajiController::class, 'index']);

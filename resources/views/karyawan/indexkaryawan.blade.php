@@ -4,7 +4,7 @@
 
 @section('tabel')
 
-<div class="p-2">
+<div class="container-fluid">
     {{-- Kelola Profile Pelanggan --}}
     <a href="/tambahkaryawan" class="btn btn-primary my-3">Tambah Data Karyawan</a>
  
