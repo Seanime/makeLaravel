@@ -14,3 +14,12 @@
     <!-- Page level custom scripts -->
     <script src="{{ asset ('template/js/demo/chart-area-demo.js')}}"></script>
     <script src="{{ asset ('template/js/demo/chart-pie-demo.js')}}"></script>
+
+    <script src="https://cdn.datatables.net/v/bs4/dt-1.11.3/datatables.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('#example1').DataTable({
+                "order": []
+            });
+        });
+    </script>

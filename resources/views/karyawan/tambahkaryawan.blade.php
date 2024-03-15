@@ -57,7 +57,8 @@
                 <div class="alert alert-danger">{{ $message }}</div>
             @enderror
         </div>
-        <button type="submit" class="btn btn-primary">Tambah</button>
+        <button type="submit" class="btn btn-primary mr-2">Tambah</button>
+        <a href="/karyawan" class="btn btn-secondary">Batal</a>
     </form>
 </div>
 @endsection
