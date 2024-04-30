@@ -7,7 +7,8 @@ use Illuminate\Http\Request;
 class DashboardController extends Controller
 {
     public function index(){
-        return view('pages.dashboard');
+        $showDashboard = auth()->user()->isAdmin();
+        return view('pages.dashboard', compact('showDashboard'));
     }
     
 }

@@ -2,7 +2,8 @@
     <!-- Sidebar - Brand -->
     <a class="sidebar-brand d-flex align-items-center justify-content-center" href="#">
         <div class="sidebar-brand-icon">
-            <img src="{{ asset ('template\Gambar_WhatsApp_2024-02-27_pukul_14.48.29_1835ba22-removebg-preview.ico') }}" alt="">
+            <img src="{{ asset ('template\Gambar_WhatsApp_2024-02-27_pukul_14.48.29_1835ba22-removebg-preview.ico') }}"
+                alt="">
         </div>
         <div class="sidebar-brand-text mx-2">WageWatchers</div>
     </a>
@@ -15,6 +16,15 @@
             <span>Dashboard</span></a>
     </li>
     <!-- Divider -->
+
+    @if($showDashboard) 
+    <hr class="sidebar-divider my-0">
+    <li class="nav-item active">
+        <a class="nav-link" href="/user">
+            <i class="fas fa-users"></i>
+            <span>User</span></a>
+    </li>
+    @endif
     <hr class="sidebar-divider my-0">
     <li class="nav-item active">
         <a class="nav-link" href="/karyawan">
@@ -36,5 +46,10 @@
         <a class="nav-link" href="/gaji">
             <i class="fas fa-money-check-alt"></i>
             <span>Gaji Karyawan</span></a>
+    </li>
+    <li class="nav-item active">
+        <a class="nav-link" href="/user">
+            <i class="fas fa-money-check-alt"></i>
+            <span>User</span></a>
     </li>
 </ul>

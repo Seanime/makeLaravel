@@ -3,7 +3,6 @@
 @section('judul', 'Data Karyawan')
 
 @section('tabel')
-
 <div class="container-fluid">
     {{-- Kelola Profile Pelanggan --}}
     <a href="/tambahkaryawan" class="btn btn-primary my-3">Tambah Data Karyawan</a>
@@ -46,4 +45,5 @@
         </tbody>
     </table>
 </div>
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs4/dt-1.11.3/datatables.min.css"
 @endsection

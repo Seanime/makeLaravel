@@ -9,7 +9,9 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <link rel="shortcut icon" href="{{ asset('template/Gambar_WhatsApp_2024-02-27_pukul_14.48.29_1835ba22-removebg-preview.ico') }}" type="image/x-icon">
+    <link rel="shortcut icon"
+        href="{{ asset('template/Gambar_WhatsApp_2024-02-27_pukul_14.48.29_1835ba22-removebg-preview.ico') }}"
+        type="image/x-icon">
     <title> WageWatchers | Ramah Pengguna</title>
 
     @include('includes.style')
@@ -84,10 +86,21 @@
                         </button>
                     </div>
                     <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
+
                     <div class="modal-footer">
                         <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
-                        <a class="btn btn-primary" href="login.html">Logout</a>
+
+                        <a class="btn btn-primary" href="{{ route('logout') }}" onclick="event.preventDefault();
+                                 document.getElementById('logout-form').submit();">
+                            {{ __('Logout') }}
+                        </a>
+
                     </div>
+
+                    <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
+                        @csrf
+                    </form>
+
                 </div>
             </div>
         </div>
@@ -97,6 +110,8 @@
 
         @include('sweetalert::alert')
 
+
+    </div>
 </body>
 
 </html>

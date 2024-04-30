@@ -19,6 +19,7 @@ return new class extends Migration
             $table->string('alamat'); // Tambah kolom alamat
             $table->string('jenis_kelamin'); // Tambah kolom jenis_kelamin
             $table->date('tanggal_lahir'); // Tambah kolom tanggal_lahir
+            $table->foreignId('user_id')->references('id')->on('users')->onDelete('cascade')->onUpdate('cascade');
             $table->timestamps();
         });
     }
