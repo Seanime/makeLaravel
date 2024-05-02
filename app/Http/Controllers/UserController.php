@@ -13,11 +13,6 @@ class UserController extends Controller
         $user = User::all();
         $showDashboard = auth()->user()->isAdmin();
 
-        $title = 'Peringatan !';
-        $text = "Apakah anda yakin ingin menghapus ?";
-        $icon ="Question";
-        confirmDelete($title, $text);
-
         //mengirim data profile ke view index
         return view('user.index', compact('user', 'showDashboard'));
 

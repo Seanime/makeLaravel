@@ -8,6 +8,7 @@ class GajiController extends Controller
 {
     public function index()
     {
-        return view('absensi.indexabsensi');
+        $showDashboard = auth()->user()->isAdmin();
+        return view('absensi.indexabsensi', compact('showDashboard'));
     }
 }

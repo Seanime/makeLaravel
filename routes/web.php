@@ -33,20 +33,18 @@ Route::middleware(['auth', 'admin'])->group(function () {
 });
 
 // Route Profile
-// Route::get('/profile', [ProfileController::class, 'index']);
-Route::middleware(['auth'])->group(function () {
-    Route::get('/karyawan', [KaryawanController::class, 'index']);
-    Route::get('/tambahkaryawan', [KaryawanController::class, 'tambahkaryawan']);
-    Route::post('/karyawan', [KaryawanController::class, 'karyawan']);
-    Route::get('/karyawan/{karyawan_id}', [KaryawanController::class, 'show']);
-    Route::get('/karyawan/{karyawan_id}/edit', [KaryawanController::class, 'edit']);
-    Route::put('/karyawan/{karyawan_id}', [KaryawanController::class, 'update']);
-    Route::delete('/karyawan/{karyawan_id}', [KaryawanController::class, 'destroy']);
-    // Route Absen
-    Route::get('/absensi', [AbsensiController::class, 'index']);
-    // Route Gaji
-    Route::get('/gaji', [GajiController::class, 'index']);
-});
+// Route::get('/profile', [ProfileController::class, 'index']);{
+Route::get('/karyawan', [KaryawanController::class, 'index'])->middleware(['auth']);
+Route::get('/tambahkaryawan', [KaryawanController::class, 'tambahkaryawan'])->middleware(['auth']);
+Route::post('/karyawan', [KaryawanController::class, 'karyawan'])->middleware(['auth']);
+Route::get('/karyawan/{karyawan_id}', [KaryawanController::class, 'show'])->middleware(['auth']);
+Route::get('/karyawan/{karyawan_id}/edit', [KaryawanController::class, 'edit'])->middleware(['auth']);
+Route::put('/karyawan/{karyawan_id}', [KaryawanController::class, 'update'])->middleware(['auth']);
+Route::delete('/karyawan/{karyawan_id}', [KaryawanController::class, 'destroy'])->middleware(['auth']);
+// Route Absen
+Route::get('/absensi', [AbsensiController::class, 'index'])->middleware(['auth']);
+// Route Gaji
+Route::get('/gaji', [GajiController::class, 'index'])->middleware(['auth']);
 
 
 
@@ -54,7 +52,3 @@ Auth::routes();
 
 Route::get('/login', [App\Http\Controllers\Auth\LoginController::class, 'showLoginForm'])->name('login');
 // Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
-
-Auth::routes();
-
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

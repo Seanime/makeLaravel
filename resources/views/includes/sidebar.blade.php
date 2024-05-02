@@ -21,9 +21,11 @@
     <hr class="sidebar-divider my-0">
     <li class="nav-item active">
         <a class="nav-link" href="/user">
-            <i class="fas fa-users"></i>
-            <span>User</span></a>
+            <i class="fas fa-user"></i>
+            <span>User</span>
+        </a>
     </li>
+    
     @endif
     <hr class="sidebar-divider my-0">
     <li class="nav-item active">
@@ -47,9 +49,5 @@
             <i class="fas fa-money-check-alt"></i>
             <span>Gaji Karyawan</span></a>
     </li>
-    <li class="nav-item active">
-        <a class="nav-link" href="/user">
-            <i class="fas fa-money-check-alt"></i>
-            <span>User</span></a>
-    </li>
+
 </ul>

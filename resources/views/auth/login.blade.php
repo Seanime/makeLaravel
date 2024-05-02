@@ -9,6 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
+    <link rel="shortcut icon" href="{{ asset('template/Gambar_WhatsApp_2024-02-27_pukul_14.48.29_1835ba22-removebg-preview.ico') }}" type="image/x-icon">
     <title>Halaman Login</title>
   <!-- Custom fonts for this template-->
   <link href="{{asset('template/vendor/fontawesome-free/css/all.min.css') }}" rel="stylesheet" type="text/css">

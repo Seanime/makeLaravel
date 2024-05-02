@@ -121,13 +121,13 @@ a:focus {
 }
 
 .hero_area .hero_bg_box img {
-  min-width: 100%;
-  min-height: 100%;
+  min-width: 120%;
+  min-height: 120%;
 }
 
 .sub_page .hero_area {
   min-height: auto;
-  background: linear-gradient(130deg, #231a6f, #0f054c);
+  background: linear-gradient(130deg, #312a6a,#231a6f, #0f054c, #0e0747);
 }
 
 .sub_page .hero_area .hero_bg_box {
@@ -135,7 +135,7 @@ a:focus {
 }
 
 .header_section {
-  padding: 15px 0;
+  padding: 15px 30px;
 }
 
 .header_section .container-fluid {
@@ -316,13 +316,14 @@ a:focus {
 }
 
 .slider_section .detail-box .btn-box .btn1:hover {
-  background-color: #ffffff;
-  color: #000000;
+  background-color: transparent;
+  color: #ffffff;
+  border: 5px solid #ffffff;
 }
 .slider_section .detail-box .btn-box .btn3 {
   display: inline-block;
   padding: 15px;
-  color: #05c9ff;
+  color: #ffffff;
   border-radius: 30px;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
@@ -332,6 +333,8 @@ a:focus {
 .slider_section .detail-box .btn-box .btn3:hover {
   background-color: #00bbf0;
   color: #ffffff;
+  border: none;
+  padding-top: 17px;
 }
 
 .slider_section .detail-box .btn-box .btn2 {
