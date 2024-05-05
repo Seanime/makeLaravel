@@ -65,7 +65,7 @@
                 <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#"> About</a>
+                <a class="nav-link" href="#">About</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Services</a>
@@ -74,7 +74,7 @@
                 <a class="nav-link" href="#">Why Us</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Team</a>
+                <a class="nav-link" href="#team_section">Team</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="/login"> <i class="fa fa-user" aria-hidden="true"></i> Login</a>
@@ -372,7 +372,7 @@
   <!-- end why section -->
 
   <!-- team section -->
-  <section class="team_section layout_padding">
+  <section id="team_section" class="team_section layout_padding">
     <div class="container-fluid">
       <div class="heading_container heading_center">
         <h2 class="">
@@ -389,10 +389,10 @@
               </div>
               <div class="detail-box">
                 <h5>
-                  Joseph Brown
+                  Alin Karisa Hizannah
                 </h5>
                 <p>
-                  Marketing Head
+                  Fullstack Developer
                 </p>
               </div>
               <div class="social_box">
@@ -421,10 +421,10 @@
               </div>
               <div class="detail-box">
                 <h5>
-                  Nancy White
+                  Livia Noorafni Fadilah
                 </h5>
                 <p>
-                  Marketing Head
+                  Leader
                 </p>
               </div>
               <div class="social_box">
@@ -453,10 +453,10 @@
               </div>
               <div class="detail-box">
                 <h5>
-                  Earl Martinez
+                  Ahmad Wildan
                 </h5>
                 <p>
-                  Marketing Head
+                  Anggota
                 </p>
               </div>
               <div class="social_box">
@@ -485,10 +485,74 @@
               </div>
               <div class="detail-box">
                 <h5>
-                  Josephine Allard
+                  Ovi Andre Khoiruniza
                 </h5>
                 <p>
-                  Marketing Head
+                  Anggota
+                </p>
+              </div>
+              <div class="social_box">
+                <a href="#">
+                  <i class="fa fa-facebook" aria-hidden="true"></i>
+                </a>
+                <a href="#">
+                  <i class="fa fa-twitter" aria-hidden="true"></i>
+                </a>
+                <a href="#">
+                  <i class="fa fa-linkedin" aria-hidden="true"></i>
+                </a>
+                <a href="#">
+                  <i class="fa fa-instagram" aria-hidden="true"></i>
+                </a>
+                <a href="#">
+                  <i class="fa fa-youtube-play" aria-hidden="true"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6 offset-lg-3 offset-sm-0">
+            <div class="box ">
+              <div class="img-box">
+                <img src="{{ asset('finexo-html/images/team-5.jpg')}}" class="img1" alt="">
+              </div>
+              <div class="detail-box">
+                <h5>
+                  Kevin Resha Valleryan A.
+                </h5>
+                <p>
+                  Anggota
+                </p>
+              </div>
+              <div class="social_box">
+                <a href="#">
+                  <i class="fa fa-facebook" aria-hidden="true"></i>
+                </a>
+                <a href="#">
+                  <i class="fa fa-twitter" aria-hidden="true"></i>
+                </a>
+                <a href="#">
+                  <i class="fa fa-linkedin" aria-hidden="true"></i>
+                </a>
+                <a href="#">
+                  <i class="fa fa-instagram" aria-hidden="true"></i>
+                </a>
+                <a href="#">
+                  <i class="fa fa-youtube-play" aria-hidden="true"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <div class="box ">
+              <div class="img-box">
+                <img src="{{ asset('finexo-html/images/team-6.jpg')}}" class="img1" alt="">
+              </div>
+              <div class="detail-box">
+                <h5>
+                  Tathya Budi Alindita
+                </h5>
+                <p>
+                  Anggota
                 </p>
               </div>
               <div class="social_box">
@@ -517,7 +581,7 @@
   <!-- end team section -->
 
 
-  <!-- client section -->
+  {{-- <!-- client section -->
 
   <section class="client_section layout_padding">
     <div class="container">
@@ -621,10 +685,10 @@
     </div>
   </section>
 
-  <!-- end client section -->
+  <!-- end client section --> --}}
 
 
-  <!-- info section -->
+  {{-- <!-- info section -->
 
   <section class="info_section layout_padding2">
     <div class="container">
@@ -717,7 +781,7 @@
         </div>
       </div>
     </div>
-  </section>
+  </section> --}}
 
   <!-- end info section -->
 
