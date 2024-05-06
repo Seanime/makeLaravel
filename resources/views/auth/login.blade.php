@@ -55,7 +55,7 @@
                                                 
                                         </div>
                                         <div class="form-group">
-                                            <input id="password" type="password" class="form-control @error('password') is-invalid @enderror" name="password" required autocomplete="current-password" placeholder="Passoword">
+                                            <input id="password" type="password" class="form-control @error('password') is-invalid @enderror" name="password" required autocomplete="current-password" placeholder="Password">
 
                                 @error('password')
                                     <span class="invalid-feedback" role="alert">
@@ -76,10 +76,6 @@
                                         <hr>
                                       
                                     </form>
-                                  
-                                    <div class="text-center">
-                                        <a class="small" href="{{ route('password.confirm') }}">Forgot Password?</a>
-                                    </div>
                                     <div class="text-center">
                                         <a class="small" href="{{ route('register') }}">Create an Account!</a>
                                     </div>

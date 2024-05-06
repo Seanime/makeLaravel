@@ -105,7 +105,7 @@
                         Watchers 
                     </h1>
                     <p>
-                      Explicabo esse amet tempora quibusdam laudantium, laborum eaque magnam fugiat hic? Esse dicta aliquid error repudiandae earum suscipit fugiat molestias, veniam, vel architecto veritatis delectus repellat modi impedit sequi.
+                      Welcome to WageWatchers: Tempat Absensi Berarti dan Gaji Penting. Di Mana Setiap Detik Berharga, dan Setiap Penghargaan Adil Tercatat
                     </p>
                     <div class="btn-box">
                       <a href="/login" class="btn1">
@@ -135,7 +135,7 @@
                       Watchers
                     </h1>
                     <p>
-                      Explicabo esse amet tempora quibusdam laudantium, laborum eaque magnam fugiat hic? Esse dicta aliquid error repudiandae earum suscipit fugiat molestias, veniam, vel architecto veritatis delectus repellat modi impedit sequi.
+                      Dalam kerumitan bisnis, setiap kehadiran karyawan dan setiap detik yang mereka berikan sangat berarti. Di WageWatchers, kami memahami bahwa absensi bukan hanya tentang kehadiran fisik; itu tentang keberhasilan, keadilan, dan produktivitas yang sejalan dengan visi perusahaan Anda.
                     </p>
                     <div class="btn-box">
                       <a href="" class="btn1">
@@ -171,10 +171,10 @@
       <div class="container ">
         <div class="heading_container heading_center">
           <h2>
-            Our <span>Services</span>
+            <span>Layanan</span> Kami
           </h2>
           <p>
-            There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration
+             Berikut layanan-layanan khusus yang kami tawarkan untuk membantu perusahaan Anda mencapai tujuan-tujuan mereka.
           </p>
         </div>
         <div class="row">
@@ -185,12 +185,10 @@
               </div>
               <div class="detail-box">
                 <h5>
-                  Currency Wallet
+                  Pemantauan Absensi yang Akurat
                 </h5>
                 <p>
-                  fact that a reader will be distracted by the readable content of a page when looking at its layout.
-                  The
-                  point of using
+                  WageWatchers menyediakan sistem yang canggih untuk merekam dan melacak absensi karyawan dengan akurat. 
                 </p>
                 <a href="">
                   Read More
@@ -205,12 +203,10 @@
               </div>
               <div class="detail-box">
                 <h5>
-                  Security Storage
+                  Perhitungan Gaji yang Otomatis
                 </h5>
                 <p>
-                  fact that a reader will be distracted by the readable content of a page when looking at its layout.
-                  The
-                  point of using
+                  Dengan fitur perhitungan gaji otomatis, WageWatchers membantu menghindari kesalahan dan menyederhanakan proses pembayaran karyawan. 
                 </p>
                 <a href="">
                   Read More
@@ -225,12 +221,10 @@
               </div>
               <div class="detail-box">
                 <h5>
-                  Expert Support
+                  Analisis Data yang Mendalam
                 </h5>
                 <p>
-                  fact that a reader will be distracted by the readable content of a page when looking at its layout.
-                  The
-                  point of using
+                  WageWatchers menyediakan laporan analitik yang mendalam tentang absensi dan pengeluaran gaji, memberikan wawasan berharga kepada manajemen untuk pengambilan keputusan yang lebih baik. 
                 </p>
                 <a href="">
                   Read More
@@ -259,9 +253,6 @@
         <h2>
           About <span>Us</span>
         </h2>
-        <p>
-          Magni quod blanditiis non minus sed aut voluptatum illum quisquam aspernatur ullam vel beatae rerum ipsum voluptatibus
-        </p>
       </div>
       <div class="row">
         <div class="col-md-6 ">
@@ -271,17 +262,9 @@
         </div>
         <div class="col-md-6">
           <div class="detail-box">
-            <h3>
-              We Are Finexo
-            </h3>
             <p>
-              There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration
-              in some form, by injected humour, or randomised words which don't look even slightly believable. If you
-              are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in
+              WageWatchers adalah solusi inovatif yang menggabungkan teknologi canggih dengan kebijaksanaan bisnis. Kami menyediakan alat yang diperlukan bagi perusahaan untuk mengelola absensi karyawan dengan efisien dan memastikan bahwa setiap jam kerja dihargai dengan adil. Dengan fokus pada transparansi, akurasi, dan keadilan, WageWatchers memungkinkan perusahaan untuk mengoptimalkan produktivitas dan meningkatkan kepuasan karyawan.
               the middle of text. All
-            </p>
-            <p>
-              Molestiae odio earum non qui cumque provident voluptates, repellendus exercitationem, possimus at iste corrupti officiis unde alias eius ducimus reiciendis soluta eveniet. Nobis ullam ab omnis quasi expedita.
             </p>
             <a href="">
               Read More
@@ -300,7 +283,7 @@
     <div class="container">
       <div class="heading_container heading_center">
         <h2>
-          Why Choose <span>Us</span>
+          <span>Tujuan</span>Kami
         </h2>
       </div>
       <div class="why_container">
@@ -310,11 +293,10 @@
           </div>
           <div class="detail-box">
             <h5>
-              Expert Management
+              Absensi yang Terkelola dengan Baik
             </h5>
             <p>
-              Incidunt odit rerum tenetur alias architecto asperiores omnis cumque doloribus aperiam numquam! Eligendi corrupti, molestias laborum dolores quod nisi vitae voluptate ipsa? In tempore voluptate ducimus officia id, aspernatur nihil.
-              Tempore laborum nesciunt ut veniam, nemo officia ullam repudiandae repellat veritatis unde reiciendis possimus animi autem natus
+              WageWatchers menyediakan alat untuk merekam dan melacak absensi karyawan secara akurat, termasuk cuti, izin, dan keterlambatan, sehingga perusahaan dapat mengelola kehadiran dengan lebih efisien.
             </p>
           </div>
         </div>
@@ -324,11 +306,10 @@
           </div>
           <div class="detail-box">
             <h5>
-              Secure Investment
+              Memastikan Keadilan
             </h5>
             <p>
-              Incidunt odit rerum tenetur alias architecto asperiores omnis cumque doloribus aperiam numquam! Eligendi corrupti, molestias laborum dolores quod nisi vitae voluptate ipsa? In tempore voluptate ducimus officia id, aspernatur nihil.
-              Tempore laborum nesciunt ut veniam, nemo officia ullam repudiandae repellat veritatis unde reiciendis possimus animi autem natus
+              Kami berkomitmen untuk memastikan bahwa setiap karyawan dibayar dengan adil sesuai dengan kontribusi mereka. WageWatchers membantu mencegah kesalahan perhitungan gaji dan mempromosikan keadilan dalam kompensasi.
             </p>
           </div>
         </div>
@@ -338,11 +319,10 @@
           </div>
           <div class="detail-box">
             <h5>
-              Instant Trading
+              Mempermudah Administrasi
             </h5>
             <p>
-              Incidunt odit rerum tenetur alias architecto asperiores omnis cumque doloribus aperiam numquam! Eligendi corrupti, molestias laborum dolores quod nisi vitae voluptate ipsa? In tempore voluptate ducimus officia id, aspernatur nihil.
-              Tempore laborum nesciunt ut veniam, nemo officia ullam repudiandae repellat veritatis unde reiciendis possimus animi autem natus
+              Dengan fitur-fitur yang intuitif dan alur kerja yang efisien, WageWatchers membantu mengurangi beban administratif perusahaan terkait dengan manajemen absensi dan gaji.
             </p>
           </div>
         </div>
@@ -352,11 +332,10 @@
           </div>
           <div class="detail-box">
             <h5>
-              Happy Customers
+              Laporan Analitik yang Mendalam
             </h5>
             <p>
-              Incidunt odit rerum tenetur alias architecto asperiores omnis cumque doloribus aperiam numquam! Eligendi corrupti, molestias laborum dolores quod nisi vitae voluptate ipsa? In tempore voluptate ducimus officia id, aspernatur nihil.
-              Tempore laborum nesciunt ut veniam, nemo officia ullam repudiandae repellat veritatis unde reiciendis possimus animi autem natus
+              WageWatchers menyediakan laporan analitik yang komprehensif tentang absensi dan pengeluaran gaji, memberikan wawasan berharga kepada manajemen untuk pengambilan keputusan strategis yang lebih baik.
             </p>
           </div>
         </div>
