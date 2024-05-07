@@ -12,6 +12,7 @@ Detail Profil Karyawan
             <h3 class="card-title">Detail Data Profil User ke-{{$user->id}}</h3>
             <h6>Nama: {{ $user->name }}</h6>
             <h6>Email: {{ $user->email }}</h6>
+            <h6>Role: {{ $user->role }}</h6>
         </div>
     </div>
 

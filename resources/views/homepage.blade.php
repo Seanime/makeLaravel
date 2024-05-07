@@ -283,7 +283,7 @@
     <div class="container">
       <div class="heading_container heading_center">
         <h2>
-          <span>Tujuan</span>Kami
+          <span>Tujuan</span> Kami
         </h2>
       </div>
       <div class="why_container">

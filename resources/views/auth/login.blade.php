@@ -55,21 +55,28 @@
                                                 
                                         </div>
                                         <div class="form-group">
-                                            <input id="password" type="password" class="form-control @error('password') is-invalid @enderror" name="password" required autocomplete="current-password" placeholder="Password">
-
-                                @error('password')
-                                    <span class="invalid-feedback" role="alert">
-                                        <strong>{{ $message }}</strong>
-                                    </span>
-                                @enderror
+                                            <div class="input-group">
+                                                <input id="password" type="password" class="form-control @error('password') is-invalid @enderror" name="password" required autocomplete="current-password" placeholder="Password">
+                                                <div class="input-group-append">
+                                                    <span class="input-group-text" id="show-hide-password">
+                                                        <i class="fas fa-eye" id="show-hide-icon"></i>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                            @error('password')
+                                                <span class="invalid-feedback" role="alert">
+                                                    <strong>{{ $message }}</strong>
+                                                </span>
+                                            @enderror
                                         </div>
+                                        
 
-                                        <div class="form-group">
+                                        {{-- <div class="form-group">
                                             <div class="custom-control custom-checkbox small">
                                                 <input class="form-check-input" type="checkbox" name="remember" id="remember" {{ old('remember') ? 'checked' : '' }}>
                                                 <label>Remember Me</label>
                                             </div>
-                                        </div>
+                                        </div> --}}
                                         <button class="btn btn-primary btn-user btn-block">
                                             Login
                                         </button>
@@ -100,6 +107,24 @@
   
       <!-- Custom scripts for all pages-->
       <script src="{{ asset('template/js/sb-admin-2.min.js') }}"></script>
+      
+      <script>
+        document.getElementById("show-hide-password").addEventListener("click", function() {
+            var passwordInput = document.getElementById("password");
+            var icon = document.getElementById("show-hide-icon");
+            
+            if (passwordInput.type === "password") {
+                passwordInput.type = "text";
+                icon.classList.remove("fa-eye");
+                icon.classList.add("fa-eye-slash");
+            } else {
+                passwordInput.type = "password";
+                icon.classList.remove("fa-eye-slash");
+                icon.classList.add("fa-eye");
+            }
+        });
+    </script>
+    
 
 </body>
 

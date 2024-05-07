@@ -7,6 +7,7 @@ use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\GajiController;
 use App\Http\Controllers\KaryawanController;
 use App\Http\Controllers\UserController;
+use App\Http\Controllers\ProfileController;
 
 /*
 |--------------------------------------------------------------------------
@@ -26,14 +27,14 @@ Route::get('/', function () {
 Route::get('/dashboard', [DashboardController::class, 'index'])->middleware(['auth']);
 Route::middleware(['auth', 'admin'])->group(function () {
     Route::get('/user', [UserController::class, 'index']);
-    // Route::get('/user/{user_id}', [UserController::class, 'show']);
-    // Route::get('/user/{user_id}/edit', [UserController::class, 'edit']);
-    // Route::put('/user/{user_id}', [UserController::class, 'update']);
-    // Route::delete('/user/{user_id}', [UserController::class, 'destroy']);
+    Route::get('/user/{user_id}', [UserController::class, 'show']);
+    Route::get('/user/{user_id}/edit', [UserController::class, 'edit']);
+    Route::put('/user/{user_id}', [UserController::class, 'update']);
+    Route::delete('/user/{user_id}', [UserController::class, 'destroy']);
 });
 
 // Route Profile
-// Route::get('/profile', [ProfileController::class, 'index']);{
+Route::get('/profile', [ProfileController::class, 'index'])->middleware(['auth']);
 Route::get('/karyawan', [KaryawanController::class, 'index'])->middleware(['auth']);
 Route::get('/tambahkaryawan', [KaryawanController::class, 'tambahkaryawan'])->middleware(['auth']);
 Route::post('/karyawan', [KaryawanController::class, 'karyawan'])->middleware(['auth']);

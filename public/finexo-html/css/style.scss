@@ -528,6 +528,8 @@ a:focus {
 /*team section */
 
 .team_section {
+  min-width: 100%;
+  min-height: 100%;
   text-align: center;
   background-color: $primary2;
   color: $white;
@@ -537,7 +539,7 @@ a:focus {
   }
 
   .team_container {
-    padding: 0 15px;
+    padding: 0;
 
     .box {
       padding: 35px 0 0 0;
