@@ -168,7 +168,7 @@ a:focus {
 }
 
 .custom_nav-container .navbar-nav .nav-item:hover .nav-link, .custom_nav-container .navbar-nav .nav-item.active .nav-link {
-  color: #00bbf0;
+  color: #0095bf;
 }
 
 .custom_nav-container .navbar-nav .nav-item.active .nav-link {
@@ -287,6 +287,7 @@ a:focus {
 .slider_section .detail-box p {
   color: #fefefe;
   font-size: 14px;
+  text-align: justify;
 }
 
 .slider_section .detail-box .btn-box {
@@ -526,6 +527,7 @@ a:focus {
 
 .about_section .detail-box p {
   margin-top: 15px;
+  text-align: justify;
 }
 
 .about_section .detail-box a {

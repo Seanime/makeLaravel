@@ -65,13 +65,13 @@
                 <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
+                <a class="nav-link" href="#Tentang_web">Tentang Kami</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Services</a>
+                <a class="nav-link" href="#Layanan">Layanan</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Why Us</a>
+                <a class="nav-link" href="#Tujuan">Tujuan</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#team_section">Team</a>
@@ -166,7 +166,7 @@
 
   <!-- service section -->
 
-  <section class="service_section layout_padding">
+  <section id="Layanan" class="service_section layout_padding">
     <div class="service_container">
       <div class="container ">
         <div class="heading_container heading_center">
@@ -247,11 +247,11 @@
 
   <!-- about section -->
 
-  <section class="about_section layout_padding">
+  <section id="Tentang_web" class="about_section layout_padding">
     <div class="container  ">
       <div class="heading_container heading_center">
         <h2>
-          About <span>Us</span>
+          Tentang <span>Kami</span>
         </h2>
       </div>
       <div class="row">
@@ -279,7 +279,7 @@
 
   <!-- why section -->
 
-  <section class="why_section layout_padding">
+  <section id="Tujuan" class="why_section layout_padding">
     <div class="container">
       <div class="heading_container heading_center">
         <h2>
