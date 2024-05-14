@@ -43,8 +43,18 @@ class User extends Authenticatable
         'password' => 'hashed',
     ];
 
+    // untuk menyimpan kolom role dengan memanggil admin 
     public function isAdmin()
     {
         return $this->role === "admin";
+    }
+   
+    protected static function boot()
+    {
+        parent::boot();
+
+        static::creating(function ($user) {
+            $user->role = 'user';
+        });
     }
 }

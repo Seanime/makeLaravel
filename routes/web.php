@@ -23,6 +23,7 @@ use App\Http\Controllers\ProfileController;
 Route::get('/', function () {
     return view('homepage');
 });
+
 // Route Dashboard
 Route::get('/dashboard', [DashboardController::class, 'index'])->middleware(['auth']);
 Route::middleware(['auth', 'admin'])->group(function () {

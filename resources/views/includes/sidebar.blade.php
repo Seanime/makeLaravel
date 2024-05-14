@@ -17,7 +17,8 @@
     </li>
     <!-- Divider -->
 
-    @if($showDashboard) 
+    {{-- menampilkan untuk di admin sesuai isi variabel showdashboard --}}
+    @if($showDashboard)  
     <hr class="sidebar-divider my-0">
     <li class="nav-item active">
         <a class="nav-link" href="/user">
@@ -25,8 +26,8 @@
             <span>User</span>
         </a>
     </li>
-    
     @endif
+
     <hr class="sidebar-divider my-0">
     <li class="nav-item active">
         <a class="nav-link" href="/karyawan">
