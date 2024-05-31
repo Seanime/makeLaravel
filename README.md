@@ -7,9 +7,10 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-## About Laravel
+## Fitur WAGEWATCHERS
+WageWatchers adalah solusi inovatif yang menggabungkan teknologi canggih dengan kebijaksanaan bisnis. Kami menyediakan alat yang diperlukan bagi perusahaan untuk mengelola absensi karyawan dengan efisien dan memastikan bahwa setiap jam kerja dihargai dengan adil. Dengan fokus pada transparansi, akurasi, dan keadilan, WageWatchers memungkinkan perusahaan untuk mengoptimalkan produktivitas dan meningkatkan kepuasan karyawan.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+Fiturnya Sebagai Berikut :
 
 - [Simple, fast routing engine](https://laravel.com/docs/routing).
 - [Powerful dependency injection container](https://laravel.com/docs/container).
