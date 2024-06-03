@@ -49,6 +49,7 @@ class User extends Authenticatable
         return $this->role === "admin";
     }
    
+    // untuk membuat agar user baru yangregister, hanya bisa menjadi user
     protected static function boot()
     {
         parent::boot();

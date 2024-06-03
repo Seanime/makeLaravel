@@ -4,6 +4,11 @@
 
 @section('tabel')
 <div class="container-fluid">
+    @if(Auth::user() && Auth::user()->isAdmin())
+    <a href="/karyawan/export/excel" class="btn btn-success my-3">
+        <i class="fas fa-print mr-2"></i>Export Excel
+    </a>
+    @endif
     {{-- Kelola Profile Pelanggan --}}
     <a href="/tambahkaryawan" class="btn btn-primary my-3">Tambah Data Karyawan</a>
  

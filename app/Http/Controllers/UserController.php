@@ -6,6 +6,8 @@ use App\Models\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 use RealRashid\SweetAlert\Facades\Alert;
+use App\Exports\UsersExport;
+use Maatwebsite\Excel\Facades\Excel;
 
 class UserController extends Controller
 {
@@ -60,5 +62,9 @@ class UserController extends Controller
         $user = DB::table('users')->where('id', $id)->delete();
         Alert::success('Success', 'Data Berhasil di Hapus');
         return redirect('/user');
+    }
+    public function export_excel() 
+    {
+        return Excel::download(new UsersExport, 'users.xlsx');
     }
 }

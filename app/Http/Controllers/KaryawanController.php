@@ -5,6 +5,9 @@ namespace App\Http\Controllers;
 use RealRashid\SweetAlert\Facades\Alert;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Http\Request;
+use App\Exports\KaryawanExport;
+use Maatwebsite\Excel\Facades\Excel;
+use App\Models\Karyawan; // Add this line
 
 class KaryawanController extends Controller
 {
@@ -16,7 +19,7 @@ class KaryawanController extends Controller
         $text = 'Apakah anda yakin ingin menghapus?';
         $icon = "Question";
         confirmDelete($title, $text);
-        $karyawan = DB::table('karyawan_tabel')->get();
+        $karyawan = Karyawan::all(); // Change this line
         return view('karyawan.indexkaryawan', compact('karyawan', 'showDashboard'));
     }
 
@@ -38,7 +41,7 @@ class KaryawanController extends Controller
             'tanggal_lahir' => 'required|date',
         ]);
 
-        DB::table('karyawan_tabel')->insert([
+        Karyawan::create([ // Change this line
             'nama' => $request->nama,
             'jabatan' => $request->jabatan,
             'departemen' => $request->departemen,
@@ -54,14 +57,14 @@ class KaryawanController extends Controller
     public function show($id)
     {
         $showDashboard = auth()->user()->isAdmin();
-        $karyawan = DB::table('karyawan_tabel')->find($id);
+        $karyawan = Karyawan::find($id); // Change this line
         return view('karyawan.detailkaryawan', compact('karyawan', 'showDashboard'));
     }
 
     public function edit($id)
     {
         $showDashboard = auth()->user()->isAdmin();
-        $karyawan = DB::table('karyawan_tabel')->find($id);
+        $karyawan = Karyawan::find($id); // Change this line
         return view('karyawan.editkaryawan', compact('karyawan', 'showDashboard'));
     }
 
@@ -77,7 +80,8 @@ class KaryawanController extends Controller
             'tanggal_lahir' => 'required|date',
         ]);
 
-        $request = DB::table('karyawan_tabel')->where('id', $id)->update([
+        $karyawan = Karyawan::find($id); // Change this line
+        $karyawan->update([ // Change this line
             'nama' => $request->nama,
             'jabatan' => $request->jabatan,
             'departemen' => $request->departemen,
@@ -93,8 +97,14 @@ class KaryawanController extends Controller
     public function destroy($id)
     {
         $showDashboard = auth()->user()->isAdmin();
-        $karyawan = DB::table('karyawan_tabel')->where('id', $id)->delete();
+        $karyawan = Karyawan::find($id); // Change this line
+        $karyawan->delete(); // Change this line
         Alert::success('Success', 'Data Berhasil di Hapus');
         return redirect('/karyawan');
+    }
+
+    public function export_excel() 
+    {
+        return Excel::download(new KaryawanExport, 'karyawan.xlsx');
     }
 }

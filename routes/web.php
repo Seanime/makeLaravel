@@ -32,6 +32,9 @@ Route::middleware(['auth', 'admin'])->group(function () {
     Route::get('/user/{user_id}/edit', [UserController::class, 'edit']);
     Route::put('/user/{user_id}', [UserController::class, 'update']);
     Route::delete('/user/{user_id}', [UserController::class, 'destroy']);
+    Route::get('/user/export/excel', [UserController::class, 'export_excel']);
+
+    Route::get('/karyawan/export/excel', [KaryawanController::class, 'export_excel']);
 });
 
 // Route Profile

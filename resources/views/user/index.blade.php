@@ -4,8 +4,12 @@
 
 @section('tabel')
 <div class="container-fluid">
+    @if(Auth::user() && Auth::user()->isAdmin())
     {{-- Kelola Profile Pelanggan --}}
- 
+    <a href="/user/export/excel" class="btn btn-success my-3">
+        <i class="fas fa-print mr-2"></i>Export Excel
+    </a>
+    @endif
     <table id="example1" class="table table-bordered table-striped">
         <thead>
             <tr>
