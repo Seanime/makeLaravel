@@ -5,8 +5,8 @@ WageWatchers adalah solusi inovatif yang menggabungkan teknologi canggih dengan 
 
 Fiturnya Sebagai Berikut :
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
+- Menambah Data Karyawan
+- 
 - Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
 - Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
 - Database agnostic [schema migrations](https://laravel.com/docs/migrations).
