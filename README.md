@@ -5,13 +5,13 @@ WageWatchers adalah solusi inovatif yang menggabungkan teknologi canggih dengan 
 
 Fiturnya Sebagai Berikut :
 
-- Menambah Data Karyawan
-- 
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+- Multi user (pengguna)
+- Karena, menggunakan konsep tim / kelompok, maka terdapat fitur keanggotaan, yang memiliki hak akses
+  masing masing
+- Role = Pemilik, Administrtor, Anggota
+- Cocok untuk pemilik usaha reseller
+- Untuk Menambahkan anggota ke dalam kelompok/tim/perusahaan, menggunakan token invite link, seperti invite group whatsapp. dan masih terdapat beberapa fitur lainnya
+
 
 Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
